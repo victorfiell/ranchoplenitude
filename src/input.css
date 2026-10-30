@@ -10,7 +10,7 @@
   h3, h4, h5, h6 { @apply font-sans; font-weight: 600; letter-spacing: -.01em; line-height: 1.25; text-wrap: balance; }
   p { text-wrap: pretty; }
   :focus-visible { outline: 3px solid theme('colors.sun'); outline-offset: 3px; }
-  section[id], #cavalos { scroll-margin-top: 6.5rem; }
+  section[id], #cavalos, #visita { scroll-margin-top: 6.5rem; }
 }
 @layer components {
   .container { width: 100%; max-width: 1280px; margin-inline: auto;
