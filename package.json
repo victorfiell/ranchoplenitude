@@ -1,0 +1,12 @@
+{
+  "name": "ranchoplenitude",
+  "private": true,
+  "description": "Landing page do Rancho Plenitude, centro de equoterapia em Boa Vista (RR)",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/assets/styles.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./public/assets/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
